@@ -1,0 +1,35 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.ourclient-section-div {
+  height: 40vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ourclient-section-div p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.clientlogo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.clientlogo-div div {
+  height: 100px;
+  width: 100px;
+}
+.clientlogo-div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

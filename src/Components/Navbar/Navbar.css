@@ -1,0 +1,37 @@
+.nav-section-div {
+  height: 10vh;
+}
+.parent-div {
+  height: 10vh;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+.last-button {
+  background-color: green;
+  color: white;
+  height: 35px;
+  width: 120px;
+  padding-top: 6px;
+  border-radius: 10px;
+}
+
+/* media query  */
+@media (max-width: 1024px) {
+}
+@media (max-width: 834px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}
