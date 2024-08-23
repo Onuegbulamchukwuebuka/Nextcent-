@@ -13,7 +13,6 @@ const Ourclient = () => {
         <h1>Our Clients</h1>
         <p>We have been working with some Fortune 500+ clients</p>
         <Marquee>
-          {" "}
           <div className="clientlogo-div">
             <div>
               <img src={clientlogo1} alt="" />

@@ -1,6 +1,6 @@
 .hero-section-div {
   height: 100vh;
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(243, 255, 243);
 }
 .hero-parent-div {
   height: 100vh;
@@ -31,4 +31,14 @@
   background-color: green;
   border-radius: 10px;
   color: white;
+}
+
+/* media query  */
+@media (max-width: 1024px) {
+}
+@media (max-width: 834px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
 }

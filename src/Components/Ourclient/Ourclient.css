@@ -1,8 +1,3 @@
-* {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
-}
 .ourclient-section-div {
   height: 40vh;
   background-color: white;
@@ -14,6 +9,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+.ourclient-parent-div {
+  height: 40vh;
+  width: 95%;
+}
 .ourclient-section-div p {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -22,7 +21,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 150px;
+  height: 200px;
 }
 .clientlogo-div div {
   height: 100px;
@@ -32,4 +32,14 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+/* media query  */
+@media (max-width: 1024px) {
+}
+@media (max-width: 834px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
 }
