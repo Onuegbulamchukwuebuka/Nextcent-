@@ -13,7 +13,7 @@
   flex-direction: column;
   gap: 10px;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 .line {
   background-color: white;
@@ -22,7 +22,7 @@
   margin-bottom: 5px;
 }
 .footer {
-  height: 40vh;
+  height: 30vh;
   width: 90%;
   display: flex;
   justify-content: center;
