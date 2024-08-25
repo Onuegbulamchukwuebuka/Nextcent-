@@ -6,6 +6,7 @@ import Community from "../Components/Community/Community";
 import Pixelgrade from "../Components/Pixelgrade/Pixelgrade";
 import Helping from "../Components/Helping/Helping";
 import Marketing from "../Components/Marketing/Marketing";
+import Footer from "../Components/Footer/Footer";
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       <Pixelgrade />
       <Helping />
       <Marketing />
+      <Footer />
     </div>
   );
 };
