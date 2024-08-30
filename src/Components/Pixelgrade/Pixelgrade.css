@@ -97,4 +97,14 @@
   }
 }
 @media (max-width: 480px) {
+  .Pixelgrade-section-div {
+    height: auto;
+  }
+  .Pixelgrade-parent-div {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .Pixelgrade-parent-div div {
+    width: 100%;
+  }
 }

@@ -73,4 +73,7 @@
   }
 }
 @media (max-width: 480px) {
+  .parent-div {
+    text-align: center;
+  }
 }
