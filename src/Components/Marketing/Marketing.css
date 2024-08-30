@@ -186,12 +186,15 @@
 @media (max-width: 480px) {
   .Marketing-section-div {
     height: auto;
+    width: auto;
   }
   .Marketing-parent-div {
     height: auto;
+    width: auto;
   }
   .Caring-div {
     height: auto;
+    width: auto;
     flex-wrap: wrap;
   }
   #detail-div h4 {
