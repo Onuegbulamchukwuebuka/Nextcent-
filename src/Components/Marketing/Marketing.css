@@ -184,6 +184,9 @@
   }
 }
 @media (max-width: 480px) {
+  .Marketing-parent-div p {
+    padding-bottom: 10px;
+  }
   .Marketing-section-div {
     height: auto;
   }
@@ -193,5 +196,9 @@
   .Caring-div {
     height: auto;
     flex-wrap: wrap;
+  }
+  #detail-div h4 {
+    font-size: small;
+    width: 80%;
   }
 }

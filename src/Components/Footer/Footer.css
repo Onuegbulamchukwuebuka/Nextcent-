@@ -138,4 +138,18 @@
   }
 }
 @media (max-width: 480px) {
+  .footer-section-div {
+    height: auto;
+  }
+  .footer-parent-div {
+    padding-top: 10px;
+    height: auto;
+  }
+  .footer div {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .footer div div {
+    width: 100%;
+  }
 }
