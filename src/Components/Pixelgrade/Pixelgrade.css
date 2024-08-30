@@ -103,6 +103,7 @@
   .Pixelgrade-parent-div {
     height: auto;
     flex-wrap: wrap;
+    gap: 20px;
   }
   .Pixelgrade-parent-div div {
     width: 100%;

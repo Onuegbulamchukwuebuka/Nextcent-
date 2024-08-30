@@ -76,4 +76,9 @@
   .parent-div {
     text-align: center;
   }
+  .menuicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

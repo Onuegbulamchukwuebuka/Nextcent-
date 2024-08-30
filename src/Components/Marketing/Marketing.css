@@ -184,4 +184,7 @@
   }
 }
 @media (max-width: 480px) {
+  .Caring-div {
+    flex-wrap: wrap;
+  }
 }
