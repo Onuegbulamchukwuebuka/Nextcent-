@@ -12,8 +12,18 @@
   margin-left: auto;
 }
 .Pixelgrade-parent-div div {
-  width: 40%;
+  width: 45%;
   align-items: center;
+  height: 80vh;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Pixelgrade-parent-div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .Pixelgrade-parent-div div h1 {
   width: 90%;
@@ -24,12 +34,67 @@
 }
 .Pixelgrade-parent-div div div {
   height: 40px;
-  width: 150px;
+  width: 120px;
   background-color: green;
   border-color: transparent;
   border-style: solid;
   color: white;
-  text-align: center;
   border-radius: 10px;
-  padding-top: 5px;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+/* media query */
+
+@media (max-width: 1024px) {
+  .Pixelgrade-section-div {
+    height: 80vh;
+  }
+  .Pixelgrade-parent-div {
+    height: 80vh;
+    gap: 80px;
+  }
+  .Pixelgrade-parent-div div {
+    height: 60vh;
+  }
+  .Pixelgrade-parent-div div h1 {
+    font-size: x-large;
+  }
+  .Pixelgrade-parent-div div p {
+    font-size: small;
+  }
+}
+@media (max-width: 834px) {
+  .Pixelgrade-section-div {
+    height: 70vh;
+  }
+  .Pixelgrade-parent-div {
+    height: 70vh;
+    gap: 70px;
+  }
+  .Pixelgrade-parent-div div {
+    height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .Pixelgrade-section-div {
+    height: 60vh;
+  }
+  .Pixelgrade-parent-div {
+    height: 60vh;
+    gap: 60px;
+  }
+  .Pixelgrade-parent-div div {
+    height: 40vh;
+  }
+  .Pixelgrade-parent-div div h1 {
+    font-size: large;
+  }
+  .Pixelgrade-parent-div div p {
+    font-size: x-small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
 }

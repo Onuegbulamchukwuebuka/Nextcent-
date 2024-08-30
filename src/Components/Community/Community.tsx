@@ -33,7 +33,7 @@ const Community = () => {
               </p>
             </div>
           </div>
-          <div className="box1-1">
+          <div className="box1-1" id="third-div">
             <div>
               <img src={hand} alt="" />
             </div>

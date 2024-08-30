@@ -26,6 +26,18 @@ const Ourclient = () => {
             <div>
               <img src={clientlogo4} alt="" />
             </div>
+            <div>
+              <img src={clientlogo1} alt="" />
+            </div>
+            <div>
+              <img src={clientlogo2} alt="" />
+            </div>
+            <div>
+              <img src={clientlogo3} alt="" />
+            </div>
+            <div>
+              <img src={clientlogo4} alt="" />
+            </div>
           </div>
         </Marquee>
       </div>

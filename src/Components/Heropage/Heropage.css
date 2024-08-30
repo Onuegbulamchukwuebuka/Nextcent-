@@ -1,28 +1,38 @@
 .hero-section-div {
-  height: 100vh;
+  height: 90vh;
   background-color: rgb(243, 255, 243);
 }
 .hero-parent-div {
-  height: 100vh;
+  height: 90vh;
   width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 10px;
   margin-left: auto;
   margin-left: auto;
+}
+.hero-parent-div div {
+  width: 45%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .hero-parent-div div img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+}
+.hero-parent-div div h1 {
+  font-size: 45px;
 }
 .years {
   color: green;
 }
 .hero-parent-div div p {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 .hero-parent-div div button {
   height: 35px;
@@ -35,10 +45,57 @@
 
 /* media query  */
 @media (max-width: 1024px) {
+  .hero-parent-div {
+    width: 98%;
+  }
+  .hero-parent-div div {
+    width: 50%;
+  }
+  .hero-parent-div div p {
+    font-size: small;
+  }
+  .hero-parent-div div h1 {
+    font-size: 40px;
+  }
 }
 @media (max-width: 834px) {
+  .hero-parent-div div h1 {
+    font-size: 30px;
+  }
+  .hero-parent-div div p {
+    width: 90%;
+  }
+  .hero-section-div {
+    height: 80vh;
+  }
+  .hero-parent-div {
+    height: 80vh;
+  }
+  .hero-parent-div div {
+    height: 60vh;
+    width: 50%;
+  }
 }
 @media (max-width: 768px) {
+  .hero-parent-div div p {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 480px) {
+  .hero-section-div {
+    height: auto;
+  }
+  .hero-parent-div {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .hero-parent-div div {
+    height: auto;
+    width: 100%;
+  }
+  .hero-parent-div div h1 {
+    font-size: large;
+  }
 }

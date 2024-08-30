@@ -19,7 +19,6 @@ const Marketing = () => {
               <img src={woman} alt="" />
             </div>
             <div id="detail-div">
-              {" "}
               <h4>Creating Streamlined Safeguarding Processes with OneRen</h4>
               <button>Read More</button>
             </div>
@@ -29,7 +28,6 @@ const Marketing = () => {
               <img src={woman} alt="" />
             </div>
             <div id="detail-div">
-              {" "}
               <h4>Creating Streamlined Safeguarding Processes with OneRen</h4>
               <button>Read More</button>
             </div>

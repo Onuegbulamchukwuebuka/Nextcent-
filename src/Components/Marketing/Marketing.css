@@ -23,6 +23,8 @@
   justify-content: center;
   gap: 20px;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Caring-div div {
   height: 500px;
@@ -51,7 +53,7 @@
   width: 300px;
   background-color: rgb(243, 255, 243);
   position: relative;
-  top: -40px;
+  top: -60px;
 }
 #detail-div h4 {
   color: rgb(80, 80, 80);
@@ -64,4 +66,122 @@
   background-color: green;
   border-color: transparent;
   color: white;
+}
+
+/* media query  */
+@media (max-width: 1024px) {
+  .Marketing-section-div {
+    height: auto;
+    width: auto;
+  }
+  .Marketing-parent-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: auto;
+  }
+  .Caring-div div {
+    width: auto;
+  }
+  .Caring-div div div {
+    width: auto;
+  }
+  #detail-div {
+    width: 80%;
+  }
+  #detail-div h4 {
+    font-size: 15px;
+  }
+  .Marketing-parent-div p {
+    font-size: small;
+    width: 60%;
+  }
+  .Marketing-parent-div h1 {
+    font-size: x-large;
+  }
+}
+@media (max-width: 834px) {
+  .Marketing-section-div {
+    height: 80vh;
+    width: auto;
+  }
+  .Marketing-parent-div {
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80vh;
+  }
+  .Caring-div {
+    width: auto;
+    height: 400px;
+  }
+  .Caring-div div {
+    width: auto;
+    height: 300px;
+  }
+  .Caring-div div div {
+    width: auto;
+    height: 300px;
+  }
+  #detail-div {
+    width: 80%;
+    height: 100px;
+  }
+  #detail-div h4 {
+    font-size: small;
+    width: auto;
+  }
+  .Marketing-parent-div p {
+    font-size: x-small;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Marketing-parent-div h1 {
+    font-size: large;
+  }
+}
+@media (max-width: 768px) {
+  .Marketing-section-div {
+    height: 80vh;
+  }
+  .Marketing-parent-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80vh;
+  }
+  .Caring-div {
+    height: 400px;
+  }
+  .Caring-div div {
+    width: auto;
+    height: 300px;
+  }
+  .Caring-div div div {
+    width: auto;
+    height: 300px;
+  }
+  #detail-div {
+    width: 80%;
+    height: 100px;
+  }
+  #detail-div h4 {
+    font-size: x-small;
+    width: 80%;
+  }
+  .Marketing-parent-div p {
+    font-size: x-small;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Marketing-parent-div h1 {
+    font-size: large;
+  }
+  #detail-div button {
+    width: auto;
+    font-size: x-small;
+  }
+}
+@media (max-width: 480px) {
 }
