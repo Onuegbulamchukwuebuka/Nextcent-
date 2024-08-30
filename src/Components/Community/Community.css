@@ -122,7 +122,16 @@
   }
 }
 @media (max-width: 480px) {
+  .community-section-div {
+    width: auto;
+    height: auto;
+  }
+  .community-parent-div {
+    width: auto;
+    height: auto;
+  }
   .box1 {
+    width: 100%;
     flex-wrap: wrap;
   }
 }

@@ -125,6 +125,8 @@
 }
 @media (max-width: 768px) {
   .Helping-section-div {
+    width: auto;
+    height: auto;
   }
   .Helping-parent-div {
     width: auto;
