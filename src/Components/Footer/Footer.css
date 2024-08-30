@@ -139,7 +139,7 @@
   }
 }
 @media (max-width: 480px) {
-  .footer-section-div {
+  /* .footer-section-div {
     height: auto;
   }
   .footer-parent-div {
@@ -156,5 +156,5 @@
   }
   #icon-div {
     flex-wrap: wrap;
-  }
+  } */
 }
