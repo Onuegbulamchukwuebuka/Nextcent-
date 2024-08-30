@@ -184,7 +184,14 @@
   }
 }
 @media (max-width: 480px) {
+  .Marketing-section-div {
+    height: auto;
+  }
+  .Marketing-parent-div {
+    height: auto;
+  }
   .Caring-div {
+    height: auto;
     flex-wrap: wrap;
   }
 }
