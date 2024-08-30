@@ -132,6 +132,7 @@
   .footer {
     height: auto;
     flex-wrap: wrap;
+    gap: 10px;
   }
   .footer div {
     width: 100%;
@@ -148,8 +149,12 @@
   .footer div {
     width: 100%;
     flex-wrap: wrap;
+    gap: 10px;
   }
   .footer div div {
     width: 100%;
+  }
+  #icon-div {
+    flex-wrap: wrap;
   }
 }

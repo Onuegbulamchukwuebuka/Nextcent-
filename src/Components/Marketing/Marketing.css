@@ -184,9 +184,6 @@
   }
 }
 @media (max-width: 480px) {
-  .Marketing-parent-div p {
-    padding-bottom: 10px;
-  }
   .Marketing-section-div {
     height: auto;
   }
