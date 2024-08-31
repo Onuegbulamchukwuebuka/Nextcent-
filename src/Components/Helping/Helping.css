@@ -156,7 +156,7 @@
     flex-wrap: wrap;
   }
   .Helping-parent-div div {
-    width: 95%;
+    width: 100%;
   }
   p {
     font-size: x-small;
